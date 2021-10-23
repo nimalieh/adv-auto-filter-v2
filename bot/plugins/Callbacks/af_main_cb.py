@@ -139,7 +139,10 @@ async def cb_navg(bot, update: CallbackQuery):
     
     reply_markup = InlineKeyboardMarkup(temp_results)
     
-    text=f"<i>Found</i> <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code>"
+    text=f"  🥳  {chat_name} හොයන <code>{leng}</code> <i>Results For Your Query:</i> <code>{query}</code> මගෙ Data Base එකේ තියනව. 
+
+⭕️පහල Button Click  කරල ඩවුන්ලොඩ් කර ගන්න  👇
+-බයිස්කෝප් ලින්ක්ස්  BY Ⓜ️ENUPC.COM-"
         
     try:
         await update.message.edit(
