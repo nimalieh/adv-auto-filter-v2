@@ -28,14 +28,18 @@ async def start(bot, update):
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = ⭕😂😜ඕනම ෆිල්ම් එකක් ඩවුන්ලොඩ් කර ගන්න අපෙ ගෘප් එකට ජොයින් වෙන්න 😂⭕‼️‼️‼️‼️‼️
+
+-බයිස්කෝප් ලින්ක්ස්  BY Ⓜ️ENUPC.COM-
+‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️‼️
+,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'JOIN OUR Ⓜ️OVIE GROUP', url="https://t.me/baiscopelinks"
                                 )
                         ]
                     ]
@@ -47,8 +51,8 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('JOIN OUR Ⓜ️OVIE GROUP', url='https://t.me/baiscopelinks'),
+        InlineKeyboardButton('⭕⭕', url ='https://t.me/baiscopelinks')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
     ],[
